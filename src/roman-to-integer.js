@@ -106,11 +106,3 @@ console.log(romanToInt("III"));
 console.log(romanToInt("LVIII"));
 console.log(romanToInt("IV"));
 console.log(romanToInt("DCCXLVII"));
-
-const numbers = [3, 9, 7, 6, 8, 10, 20, 23, 89, 97];
-
-const filteredNumbers = numbers.filter((num) => !(num % 2));
-
-const reducedDoubleNumbers = filteredNumbers.reduce((acc, num) => acc + num*5, 0);
-
-console.log(reducedDoubleNumbers);
